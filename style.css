@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background: rgba(255,255,255,0.95);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: white;
+}
+
+/* Form */
+textarea, select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Priority Colors */
+.low { color: green; font-weight: bold; }
+.medium { color: orange; font-weight: bold; }
+.high { color: red; font-weight: bold; }
+
+/* Status Colors */
+.pending { color: red; }
+.progress { color: orange; }
+.resolved { color: green; }
+
+/* Responsive */
+@media(max-width: 600px){
+    table, th, td {
+        font-size: 12px;
+    }
+}
